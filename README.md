@@ -1,2 +1,2 @@
 # SimBERT-DTI
-An extension of the BERT architecture implemented in [ProteinBERT](https://github.com/nadavbra/protein_bert). 
+An extension of the BERT architecture implemented in [ProteinBERT](https://github.com/nadavbra/protein_bert). This extension adds a custom classification head for the prediction of drug-target interactions through the inclusion of a multi-label resolution in the finetuning pipeline. In addition, this architecture was augmented with a similarity-aware regularization loss over both drugs and proteins. 
